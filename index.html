@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>GlobeWay</title>
+          <style>
+            body{
+                background-color: #161b22;
+                color: #e2e2e2;
+                font-family: 'Times New Roman', Times, serif;
+                line-height: 1.6;
+                margin: 20px;
+                background-image: url(https://i.pinimg.com/1200x/d8/73/eb/d873eb7dd1f257a57a45887c14492e5c.jpg);
+                background-size: cover;
+                background-attachment: fixed;
+            }
+            header{
+                background-color: rgba(22, 27, 34, 0.95);
+                padding: 20px;
+                border-bottom: 2px solid #aecffa;
+                position: sticky;
+                top: 0;
+                z-index: 1000;
+                text-align: center;
+
+            }
+
+            header h1{
+                margin: 0;
+                font-size: 1.8rem;
+            }
+
+            nav{
+                margin-top: 15px;
+            }
+
+            nav a{
+                color: #aecffaa2;
+                text-decoration: none;
+                margin: 0.15px;
+                font-weight: bold;
+                text-transform: uppercase;
+                font-size: 0.85rem;
+                transition: 0.3;
+            }
+
+            nav a:hover{
+                color: #aecffa;
+            }
+
+            main{
+                max-width: 900px;
+                margin: 40px auto;
+                padding: 0 20px;
+            }
+
+            section{
+                background-color: #161b22;
+                padding: 40px;
+                margin-bottom: 40px;
+                border-radius: 15px;
+                border: 1px solid #333;
+                box-shadow: 10px 10px 30px rgba(0,0,0,0.5);
+            }
+
+           img {
+                max-width: 100%;
+                width: auto;
+                height: 100%;
+                display: block;
+                margin: 20px auto;
+                border-radius: 15px;
+                border: 3px solid #d3d5db;
+            }
+
+            h1,h2,h3{
+                color:#aecffa;
+                text-align: center;
+            }
+            table{
+                width: 100%;
+                border-collapse: collapse;
+                margin: 20px 0;
+            }
+
+            th, td{
+                border: 1px solid #444;
+                padding: 12px;
+            }
+
+            th{
+                background-color: #aecffa;
+                color: white;
+            }
+            a{
+                color: #aecffa;
+                text-decoration: none;
+                font-weight: bold;
+            }
+            a:hover{
+                text-decoration: underline;
+                color: #aecffaa2;
+            }
+
+            input,select,button{
+                width: 100%;
+                padding: 12px;
+                box-sizing: border-box;
+                border-radius: 5px;
+                border: 1px solid #444;
+                margin-bottom: 15px;
+                background-color: #0d1117;
+                color: white;
+            }
+
+            button{
+                background-color: #aecffa;
+                color: white;
+                cursor: pointer;
+                font-weight: bold;
+                border: none;
+                transition: all 0.1s;
+            }
+
+            button:hover{
+                background-color: #aecffa;
+                box-shadow: 0 0 15px #aecffa;
+                transform: scale(1.10);
+            }
+             fieldset {
+                border: 1px solid #444;
+                border-radius: 8px;
+                padding: 15px;
+                margin-bottom: 20px;
+            }
+            
+            legend {
+                color: #aecffa;
+                font-weight: bold;
+                padding: 0 10px;
+            }
+
+            .radio-option{
+                display: flex;
+                align-items: center;
+                margin-bottom: 10px;
+            }
+            .radio-option input[type='radio']{
+                width: auto;
+                margin: 0.10px 0 0;
+                cursor: pointer;
+                accent-color: #aecffa;
+            }
+            .radio-option label{
+                cursor: pointer;
+                margin-bottom: 0;
+                color: #e2e2e2;
+            }
+            #reserva form p:last-child{
+                display: flex;
+                gap: 15px;
+            }
+              button[type='reset']{
+                background-color: #444;
+                box-shadow: 0 0 10px #444;
+            }
+            footer{
+                background-color: #0d1117;
+                padding: 60px 20px;
+                text-align: center;
+                border-top: 2px solid #aecffa;
+            }
+            footer a{
+                color: #aecffaa2;
+                text-decoration: none;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Malas & Sonhos</h1>
+             <nav>
+                <a href="#início">Início</a>
+                <a href="#requisitos">Requisitos</a>
+                <a href="#precos">Preços</a>
+                <a href="#cadastro">Cadastro</a>
+            </nav>
+        </header>
+        <main>
+            <section id="inicio">
+                <h2>Tudo o que você precisa para estudar fora com segurança, seu próximo destino começa agora.</h3>
+                <p>
+                    <small> Fonte: <i>Agência de viagens de intercâmbio</i></small>
+                </p>
+                <img src="Janela do avião.jpg" alt="">
+                <p>
+                    Com uma ampla variedade de programas de intercâmbio, desde cursos de idiomas e high school até oportunidades de trabalho e estudo no exterior, ajudamos você a realizar o sonho de viver uma experiência internacional única.
+                </p>
+                <p>
+                    Nosso compromisso é guiá-lo em cada passo do caminho, oferecendo suporte completo para que sua jornada seja inesquecível.
+                </p>
+                <p>
+                    Seja qual for o destino ou o tipo de intercâmbio que você procura, estamos prontos para transformar seus planos em realidade!
+                </p>
+            </section>
+            <section id="requisitos">
+
+                <h3>Requisistos pra entrar em um intercambio:</h3>
+                <ul>
+                    <li>Passaporte válido</li>
+                    <li>Visto de estudante/trabalho</li>
+                    <li>Carta de aceitação da instituição ou empregador</li>
+                    <li>Comprovação financeira</li>
+                    <li>Seguro viagem</li>
+                    <li>Passagens e Acomodação</li>
+                </ul>
+                <h3>Requisitos Específicos:</h3>
+                <ul>
+                    <li>Nivel básico no idioma geralmente aceito</li>
+                    <li>Bom desempenho acadêmico</li>
+                    <li>Idade entre 15 e 18 pra estudar no ensino médio</li>
+                    <li>Para trabalho ou faculdade, no minimo 18 anos com comprovação de estudos</li>
+                </ul>
+            </section>
+            <section id="precos">
+
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>Destino de intercâmbio</th>
+                            <th>preço do pacote</th>
+                            <th>Duração</th>
+                            <th>Tipo</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Canadá</td>
+                            <td>R$ 10,100</td>
+                            <td>R$ 2 semanas</td> 
+                            <td>Inglês</td>
+                        </tr>
+                        <tr>
+                            <td>Estados Unidos</td>
+                            <td>R$31,600</td>
+                            <td>6 meses</td>
+                            <td>High School</td>
+                        </tr>
+                        <tr>
+                            <td>Estados Unidos</td>
+                            <td>R$27,900</td>
+                            <td>3 ou 4 meses</td>
+                            <td>Work And Travel</td>
+                        </tr>
+                        <tr>
+                            <td>Estados Unidos</td>
+                            <td>R$18,100</td>
+                            <td>6 meses</td>
+                            <td>Au Pair</td>
+                        </tr>
+                        <tr>
+                            <td>Irlanda</td>
+                            <td>R$62,600</td>
+                            <td>6 meses</td>
+                            <td>Inglês com Trabalho</td>
+                        </tr>
+                        <tr>
+                            <td>Espanha</td>
+                            <td>R$45,000</td>
+                            <td>6 meses</td>
+                            <td>Espanhol com Trabalho</td>
+                        </tr>
+                        <tr>
+                            <td>Argentina</td>
+                            <td>R$9,500</td>
+                            <td>1 mês</td>
+                            <td>Espanhol </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section id="cadastro">
+
+                <img src="Livro de idiomas.jpg" alt="">
+                <h3>Solicite a sua participação pra os nossos intercâmbio</h3>
+                <p>Preencha os campos abaixo para que nossa agência entre em contato com:</p>
+        
+                <form>
+                    <p>
+                        <label for="nome">Nome:</label>
+                        <input type="text" name="nome" id="nome" placeholder="Nome*" required>
+                    </p>
+        
+                    <p>
+                        <label for="nome">Sobrenome:</label>
+                        <input type="text" name="nome" id="nome" placeholder="Sobrenome*" required>
+                    </p>
+        
+                    <p>
+                        <label for="email">E-mail:</label>
+                        <input type="email" name="email" id="email" required placeholder="E-mail*">
+                    </p>
+        
+                    <p>
+                        <label for="data de nacimento">Data de Nacimento:</label>
+                        <input type="date" name="data de nacimento" id="data de nacimento">
+                    </p>
+                    
+                    <p>
+                        <label for="numero de telefone"> Numero de Telefone:</label>
+                        <input type="tel" name="numero de telefone" id="numero de telefone" required placeholder="Telefone*">
+                    </p>
+                    <p>
+                        <label for="CPF">CPF:</label>
+                        <input 
+                            type="tel" 
+                            id="cpf" 
+                            name="cpf" 
+                            placeholder="000.000.000-00" 
+                            maxlength="14" 
+                            oninput="this.value = this.value.replace(/\D/g, '').replace(/(\d{3})(\d{3})(\d{3})(\d{2})/, '$1.$2.$3-$4')">
+                    </p>
+                    <p>
+                        <label for="Modo de pagamento:">Modo de pagamento:</label>
+                        <select name="Modo de pagamento:" id="Modo de pagamento:">
+                        <option value="pix">PIX</option>
+                        <option value="débito">Débito</option>
+                        <option value="crédito">Crédito</option>
+                        <option value="boleto">Boleto</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="destino:">Destino:</label>
+                        <select name="destino:" id="destino:">
+                        <option value="canadá">Canadá</option>
+                        <option value="estados unidos">Estados Unidos</option>
+                        <option value="irlanda">Irlandao</option>
+                        <option value="espanha">Espanha</option>
+                        </select>
+                    </p>
+                    <fieldset>
+                        <legend>Género:</legend>
+
+                        <div class="radio-option">
+                            <input type="radio" name="género" id="masculino" value="masculino">
+                            <label for="masculino">Masculino</label>
+                        </div>
+
+                        <div class="radio-option">
+                            <input type="radio" name="género" id="ferminino" value="ferminino">
+                            <label for="ferminino">Feminino</label>
+                        </div>
+                    </fieldset>
+                     <p>
+                        <select name="você sabe se comunicar em inglês" id="você sabe se comunicar em inglês">
+                            <option value="" disabled selected>Você sabe se comunicar em inglês?</option>
+                            <option value="sim">Sim</option>
+                            <option value="nâo">Não</option>
+                        </select>
+                    </p>
+                     <p>
+                        <select name="você está estudando" id="você está estudando">
+                            <option value="" disabled selected>Você está estudando?</option>
+                            <option value="sim">Sim</option>
+                            <option value="nâo">Não</option>
+                        </select>
+                    </p>
+                     <p>
+                        <select name="qual é o seu grau de instrução" id="qual é o seu grau de instrução">
+                            <option value="" disabled selected>Qual é o seu grau de instrução?</option>
+                            <option value="ensino superior completo">Ensino superior completo</option>
+                            <option value="cursando ensino superior">Cursando ensino superior</option>
+                            <option value="ensino médio completo">Ensino médio completo</option>
+                            <option value="cursando ensino médio">Cursando ensino médio</option>
+                            <option value="ensino médio incompleto">Ensino médio incompleto</option>
+                        </select>
+                    </p>
+                     <p>
+                        <select name="no momento você está trabalhando" id="no momento você está trabalhando">
+                            <option value="" disabled selected>No momento você está trabalhandos?</option>
+                            <option value="sim">Sim</option>
+                            <option value="não">Não</option>
+                        </select>
+                    </p>
+                    <p><br>
+                        Eu (ou meu responsável legal) li e compreendi como o GlobeWay processa meus dados pessoais, conforme a <a href="index2.html">Política de Privacidade</a>, <a href="index3.html">Terms and Conditions</a> 
+                        e autorizo a utilização dos meus dados pessoais para ações de marketing direto promovidas pela GlobeWay.
+                    </p>
+                    <p>
+                    <a href="index4.html">
+                        <button>Enviar</button>
+                    </a>
+                        <button type="reset">Limpar</button>
+                    </p>
+            </section>
+        </main>
+        <footer>
+            <h3>Quem fez o site:</h3>
+            <img src="Foto minha.jpg" alt="">
+            <p>nome:Milena Maria Gomes de Matos</p>
+        </footer>
+    </body>
+</html>
